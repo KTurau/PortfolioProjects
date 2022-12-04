@@ -19,7 +19,7 @@ Order By 1,2;
 
 
 -- 2. 
--- I take these out as they are not inluded in the above queries and want to stay consistent
+-- I take these out as they are not included in the above queries and want to stay consistent
 -- European Union is part of Europe
 Select 
 	location, 
