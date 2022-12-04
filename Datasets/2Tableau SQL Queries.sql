@@ -6,7 +6,7 @@ Queries used for Tableau Project
 
 
 -- 1. 
--- GLOBAL NUMBERS
+-- Global Numbers
 Select 
 	SUM(new_cases) as total_cases, 
 	SUM(cast(new_deaths as int)) as total_deaths, 
@@ -19,7 +19,7 @@ Order By 1,2;
 
 
 -- 2. 
--- I take these out as they are not included in the above queries and want to stay consistent
+-- Total Death Count per Continent
 -- European Union is part of Europe
 Select 
 	location, 
@@ -33,7 +33,7 @@ Order By TotalDeathCount Desc;
 
 
 -- 3.
--- Countries with Highest Infection Rate compared to Population
+-- Total Infection by Country
 Select 
 	location, 
 	population, 
@@ -46,6 +46,7 @@ Order By PercentPopulationInfected Desc;
 
 
 -- 4.
+--Percent Population Infected
 Select 
 	location, 
 	population,
