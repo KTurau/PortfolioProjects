@@ -19,7 +19,7 @@ Order By 1,2;
 
 
 -- 2. 
--- Total Death Count per Continent
+-- Total Death per Continent
 -- European Union is part of Europe
 Select 
 	location, 
