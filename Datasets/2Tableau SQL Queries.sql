@@ -33,7 +33,7 @@ Order By TotalDeathCount Desc;
 
 
 -- 3.
--- Total Infection by Country
+-- Percent Population Infected Per Country
 Select 
 	location, 
 	population, 
